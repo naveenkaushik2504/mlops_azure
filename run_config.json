@@ -1,0 +1,42 @@
+[
+    {
+        "name": "my_test_exp_2",
+        "description": "Test versioned pipeline 2",
+        "compute_target": "test-compute-ml",
+        "automl": {
+            "task": "regression",
+            "experiment_timeout_minutes": 15,
+            "primary_metric": "r2_score",
+            "n_cross_validations": 3
+        },
+        "train_freq": 10,
+        "last_trained_ts": "2021-06-06 11:42:57.579436",
+        "last_trained_score": "0.9791213203864134",
+        "dataset_name": "uio_test",
+        "label": "reading_value_daily_avg",
+        "endpoint_id": "0c824a77-2c3f-4f92-9d42-ab5468769c98",
+        "last_scored_ts": "2021-06-06 11:44:14.986474"
+    },
+    {
+        "name": "FC_AUSTIN_DEV_1",
+        "description": "Austin health Quarterly fc dev ",
+        "compute_target": "test-compute-ml",
+        "train_freq": 10,
+        "last_trained_ts": "none",
+        "last_trained_score": "none",
+        "dataset_name": "FC_AUSTIN_DEV_1_DS",
+        "label": "reading_value_daily_avg",
+        "endpoint_id": "none",
+        "last_scored_ts": "none"
+    },
+    {
+        "name": "my_exp_fail",
+        "compute_target": "test-compute-ml",
+        "train_freq": 10,
+        "last_trained_ts": "2021-05-30 09:46:56.011136",
+        "last_trained_score": "0.9809553214840784",
+        "dataset_name": "uio_test1",
+        "label": "reading_value_daily_avg",
+        "endpoint_id": "af99ae25-f98b-450a-9141-8084efacdf35"
+    }
+]
