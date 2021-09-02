@@ -4,9 +4,9 @@ import argparse
 import argparse
 import json
 
-subscription_id = '8da70fa0-967f-413d-9b2f-c2d0a78b475a'
-resource_group = 'AEA-RSG-APP-DEV-HELIX'
-workspace_name = 'helixmldev'
+subscription_id = 'abc'
+resource_group = 'RSG'
+workspace_name = 'dev'
 
 def read_config(exp_name, **values):
     config_file = "../config.json"
